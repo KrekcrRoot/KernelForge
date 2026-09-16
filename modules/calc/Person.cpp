@@ -4,6 +4,4 @@
 
 #include "Person.h"
 
-Person::Person(const unsigned int age) {
-    this->age = b_uint {age};
-}
+Person::Person(const unsigned int age) : age(age) {}
